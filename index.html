@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <div class="main w-full font-['Helvetica_Neue']">
+    <nav class=" w-full fixed top-0 left-0 px-10 py-3 flex items-center justify-between">
+
+      <img class="w-[150px] mix-blend-screen filter saturate-150 contrast-125" src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1080&crop=smart&auto=webp&s=0e62e74ba8b5ef6191228e855079491cfa56f57b" alt="">
+      <div class="flex gap-5 items-center">
+        <a href="#" class="tracking-tight text-white text-xl hover:text-cyan-400 transition-colors">Home</a>
+        <a href="#" class="tracking-tight text-white text-xl hover:text-cyan-400 transition-colors">Games</a>
+        <a href="#" class="tracking-tight text-white text-xl hover:text-cyan-400 transition-colors">News</a>
+        <a href="#" class="tracking-tight text-white text-xl hover:text-cyan-400 transition-colors">Community</a>
+        <a href="#" class="tracking-tight text-white text-xl hover:text-cyan-400 transition-colors">Support</a>
+        
+       
+      </div>
+    </nav>
+    <div class="w-full h-screen overflow-hidden">
+      <img class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[1080px] mix-blend-screen filter saturate-150 contrast-125" src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1080&crop=smart&auto=webp&s=0e62e74ba8b5ef6191228e855079491cfa56f57b" alt="" style="object-fit: cover;">
+
+      <div class="w-[38rem] h-[38rem] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[-1] rounded-full bg-blue-800 blur-[90px]">
+
+      </div>
+
+      <canvas id="draw"></canvas>  
+    </div>
+    <div class="w-full h-screen bg-[#000] relative"></div>
+  </div>
+  
+  <script type="module" src="main.js"></script>
+</body>
+</html>   
