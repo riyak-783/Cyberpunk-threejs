@@ -10,7 +10,7 @@ This is a simple and interactive 3D website built using **Three.js**, **HTML**, 
 
 ## Demo
 
-[Insert link to hosted website or GIF showcasing the functionality]
+https://threejs-web.netlify.app/
 
 ## Technologies Used
 
