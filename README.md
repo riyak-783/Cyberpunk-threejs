@@ -64,7 +64,7 @@ threejs-helmet/
 
 ## Credits
 
-- Helmet model: [Source of the model if applicable].
+- Helmet model: https://threejs.org/examples/?q=post#webgl_postprocessing_3dlut
 - Built with [Three.js](https://threejs.org/).
 - Styled with [Tailwind CSS](https://tailwindcss.com/).
 
